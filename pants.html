@@ -1,0 +1,224 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url('bg2.jpg');
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('bg1.jpg');
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+/* Style the top navigation bar */
+.button {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the button links */
+.button a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 70px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.button a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+}
+
+.midcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* Left column2 */
+.leftcolumn2 {   
+  float: left;
+  width: 25%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.card :hover {
+  transform: scale(1.2);
+  background: black;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Prema Loots</h1>
+  <p>"We Don't Realy Shop Unless It's Thrift"</p>
+</div>
+
+<div class="button">
+  <a href="bestsellers.html" class="btn btn-primary">Best seller</a>
+  <a href="hoodie.html" class="btn btn-primary">Hoodie</a>
+  <a href="pants.html" class="btn btn-primary">Pants</a>
+  <a href="shirt.html" class="btn btn-primary">Shirt</a>
+  <a href="thrift.html" style="float:right" class="btn btn-primary">Log Out</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Balenciaga x Adidas</h2>
+      <div> 
+	  <a href="pants1.html"><img src="pants1.jpg" style="height:200px;"></a></div>
+      <p>₱ 4,000</p>
+    </div>
+    <div class="card">
+      <h2>Evisu</h2>
+      <div>
+	 <a href="pants2.html"><img src="pants2.jpg" style="height:200px;"></a></div>
+     <p>₱ 850</p>
+      
+      </ol>
+    </div>
+	<div class="card">
+      <h2>Nike</h2>
+      <div>
+	  <a href="pants3.html"><img src="pants3.jpg" style="height:200px;"></a></div>
+     <p>₱ 450</p>
+      
+      </ol>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Carpenter</h2>
+      <div>
+	    <a href="pants4.html"><img src="pants4.jpg" style="height:200px;"></a></div>
+      <p>₱ 950</p>
+    </div>
+    <div class="card">
+      <h2>Sweat Pants</h2>
+	  <div>
+	  	<a href="pants5.html"><img src="pants5.jpg" style="height:200px;"></a></div>
+	  <p>₱ 550</p>
+    </div>
+	<div class="card">
+      <h2>Baggy Pants</h2>
+      <div>
+	   	<a href="pants6.html"><img src="pants6.jpg" style="height:200px;"></a></div>
+      <p>₱ 750</p>
+    </div>
+  </div>
+  <div class="midcolumn">
+    <div class="card">
+      <h2>Denim pants</h2>
+      <div>
+		<a href="pants7.html"><img src="pants7.jpg" style="height:200px;"></a></div>
+      <p>₱ 700</p>
+    </div>
+		<div class="card">
+      <h2>Denim Carpenter</h2>
+      <div>
+	 <a href="pants8.html"><img src="pants8.jpg" style="height:200px;"></a></div>
+     <p>₱ 700</p>
+    </div>
+		<div class="card">
+      <h2>Denim</h2>
+      <div>
+	   <a href="pants9.html"><img src="pants9.jpg" style="height:200px;"></a></div>
+      <p>₱ 650</p>
+    </div>
+	</div>
+  <div class="leftcolumn2">
+    <div class="card">
+      <h2>Evisu</h2>
+      <div>
+	   <a href="pants10.html"><img src="pants10.jpg" style="height:200px;"></a></div>
+      <p>₱ 800</p>
+    </div>
+		<div class="card">
+      <h2>Nike</h2>
+      <div>
+	 <a href="pants11.html"><img src="pants11.jpg" style="height:200px;"></a></div>
+     <p>₱ 600</p>
+    </div>
+		<div class="card">
+      <h2>Champion</h2>
+      <div>
+	   <a href="pants12.html"><img src="pants12.jpg" style="height:200px;"></a></div>
+      <p>₱ 550</p>
+    </div>
+	</div>
+</div>
+
+<div class="footer">
+ <img src="footer.jpg" width="1200" height="350">
+</div>
+
+</body>
+</html>
